@@ -31,7 +31,7 @@ public class MySQL {
         }
 
         try {
-            String query = "insert into employee values(763,'Shyam',20,'Account')";
+            String query = "insert into employee values(762,'Manohar',20,'Account')";
             PreparedStatement psmt = conn.prepareStatement(query);
             psmt.executeUpdate();
 
