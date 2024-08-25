@@ -1,4 +1,6 @@
-
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
 package org.mysql.demo;
 
 import java.sql.Connection;
@@ -6,10 +8,6 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-/**
- *
- * @author chait
- */
 public class MySQL {
 
     public static void main(String[] args) throws SQLException {
