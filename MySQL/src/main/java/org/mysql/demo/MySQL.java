@@ -17,7 +17,7 @@ public class MySQL {
         try {
             String query = "update employee set empdept = 'Analysis' where empname = 'Mahesh'";
             PreparedStatement psmt = conn.prepareStatement(query);
-            psmt.executeUpdate();
+            psmt.executeUpdate(); 
 
             
         } catch (SQLException e) {
