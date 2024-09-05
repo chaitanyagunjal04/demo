@@ -16,6 +16,8 @@ public class MySQL {
         Connection conn = con.getConnection();
        
 
+
+
         try {
             String query = "update employee set empdept = 'Analysis' where empname = 'Mahesh'";
             PreparedStatement psmt = conn.prepareStatement(query);
